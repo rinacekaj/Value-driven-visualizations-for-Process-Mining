@@ -637,6 +637,11 @@ for position in range(0,len(d)):
 
                     place = Circle(Point(x2+45,207), 15) 
                     place.draw(win)
+                    if data['log'][id] != 0:
+                        log_moves_nr  = Text(Point(x2+45, 207), connection['log'][id] )
+                        log_moves_nr.setSize(6)
+                        log_moves_nr.draw(win)    
+                        log_moves_nr.setSize(7)
                    
 
                     colorIntesityPercentage = connection['total'][id]/maxTotalActivity
