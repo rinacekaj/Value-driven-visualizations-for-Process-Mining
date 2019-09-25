@@ -3,13 +3,13 @@
 The dataset has to b  manually generated CSV-file with the information taken by another plug-in, namely: the activities that exist in the event log, the synchronous moves or the deviations such as moves in the model or in the log.
 
 The dataset contains of 8 attributes:
-d - a unique id for each activity
-act - the activity name
-syn - how many moves were executed correctly (synchronous moves)
-mm - the moves that were done only in the model
-log - the number of moves that occurred only in the log
-nr - shows how many followers has the activity
-prior - indicates the id of the previous activity for each activity
+d - a unique id for each activity,
+act - the activity name,
+syn - how many moves were executed correctly (synchronous moves),
+mm - the moves that were done only in the model,
+log - the number of moves that occurred only in the log,
+nr - shows how many followers has the activity,
+prior - indicates the id of the previous activity for each activity and
 post - shows the id of the following activity for each activity
 
 The code firstly finds the first activities in the model, which are the activities that do not have any prior activity. The next step is to find the following activities by using the ids stored at the column post.
