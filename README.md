@@ -1,6 +1,6 @@
 # Value-driven-visualizations-for-Process-Mining
 
-The dataset has to b  manually generated CSV-file with the information taken by another plug-in, namely: the activities that exist in the event log, the synchronous moves or the deviations such as moves in the model or in the log.
+The dataset has to be manually generated CSV-file with the information taken by another plug-in, namely: the activities that exist in the event log, the synchronous moves or the deviations such as moves in the model or in the log.
 
 The dataset contains of 8 attributes:
 d - a unique id for each activity,
